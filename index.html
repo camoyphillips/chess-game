@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Chess Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Chess Vibe with AI</h1>
+
+  <!-- Chessboard container -->
+  <div id="board"></div>
+
+  <!-- Game status and scores -->
+  <p id="status">White's Turn</p>
+  <p id="score">White: 0 | Black: 0</p>
+  <p id="winner"></p>
+
+  <!-- Control buttons -->
+  <button onclick="resetGame()">Reset Game</button>
+  <button onclick="suggestMove()">Suggest Move for White</button>
+
+  <!-- Main script -->
+  <script src="script.js"></script>
+</body>
+</html>
